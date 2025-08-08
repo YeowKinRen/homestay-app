@@ -7,6 +7,7 @@ export interface Slide {
   tags: string[];
   googleLink: string;
   airbnbLink: string;
+  description: string;
 }
 
 export const slideContent: Slide[] = [
@@ -15,18 +16,22 @@ export const slideContent: Slide[] = [
     titleTop: "Cheng Setia",
     titleMain: "Classical Cozy Homestay",
     features: ["5 Bedrooms, 3 Bathrooms", "Full Kitchen", "Authentic Japanese Tatami-Style"],
-    tags: ["Scenic View", "Modern Comfort", "Village Vibe"],
+    tags: ["Scenic View", "Modern Comfort", "Minutes from Top Sights"],
     googleLink: "",
-    airbnbLink: ""
+    airbnbLink: "",
+    description: 'Classical style homestay in Cheng Setia'
+
   },
   {
     image: '/images/cheng-baru-classical-cozy-homestay/interior.jpg',
     titleTop: "Cheng Baru",
     titleMain: "Classical Cozy Homestay",
-    features: ["5 Bedrooms, 3 Bathrooms", "Private Hot Tub"],
+    features: ["5 Bedrooms, 3 Bathrooms", "Private Parking"],
     tags: ["Forest Edge", "Private Getaway", "Eco Style"],
     googleLink: "https://share.google/yXkk1o0RfNBe2u73H",
-    airbnbLink: ""
+    airbnbLink: "",
+    description: 'Classical style homestay in Cheng Baru'
+
   },
   {
     image: '/images/cheng-baru-classical-cozy-homestay/bedroom.jpg',
@@ -35,6 +40,8 @@ export const slideContent: Slide[] = [
     features: ["3 Bedrooms, 2 Bathrooms", "Full Kitchen"],
     tags: [ "Modern Comfort", "Near A Famosa & Jonker Street", "Sunset Spot"],
     googleLink: "",
-    airbnbLink: ""
+    airbnbLink: "",
+    description: 'Classical style homestay in Kampung Lapan'
+
   }
 ];
