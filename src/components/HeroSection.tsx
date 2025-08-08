@@ -65,13 +65,12 @@ export default function HeroSection() {
       {/* Content Overlay */}
       <div className="relative z-10 flex items-center h-full px-10 bg-black/40 transition-all duration-500">
         <div className="max-w-xl">
-          <h1 className="text-6xl font-serif font-extrabold text-secondary drop-shadow-lg mt-2">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-serif font-extrabold text-secondary drop-shadow-lg mt-2">
             {slideContent[selectedIndex]?.titleTop}
           </h1>
-          <h1 className="text-6xl font-serif font-extrabold drop-shadow-lg">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-serif font-extrabold drop-shadow-lg">
             {slideContent[selectedIndex]?.titleMain}
           </h1>
-
           <ul className="mt-6 text-sm space-y-2 list-disc list-inside drop-shadow-lg">
             {slideContent[selectedIndex]?.features.map((feature, i) => (
               <li key={i}>{feature}</li>
@@ -103,14 +102,14 @@ export default function HeroSection() {
 
           <div className="flex gap-3 mt-6">
             {slideContent[selectedIndex]?.tags.map((tag, i) => (
-    <span
-      key={i}
-      className="bg-gradient-to-br from-white/30 to-white/10 backdrop-blur-lg 
-                 border border-white/30 text-white px-6 py-2 rounded-full text-sm 
+              <span
+                key={i}
+                className="bg-gradient-to-br from-white/30 to-white/10 backdrop-blur-lg 
+                 border border-white/30 text-white px-6 py-2 rounded-lg text-sm 
                  shadow-lg shadow-white/10 hover:shadow-white/30 
                  hover:scale-110 transition-all duration-300
                  hover:backdrop-blur-xl hover:border-white/50"
-    >
+              >
                 {tag}
               </span>
             ))}
