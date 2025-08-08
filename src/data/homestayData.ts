@@ -14,7 +14,7 @@ export const slideContent: Slide[] = [
     image: "/images/cheng-setia-classical-cozy-homestay/interior1.jpeg",
     titleTop: "Cheng Setia",
     titleMain: "Classical Cozy Homestay",
-    features: ["5 Bedrooms, 3 Bathrooms", "Full Kitchen"],
+    features: ["5 Bedrooms, 3 Bathrooms", "Full Kitchen", "Authentic Japanese Tatami-Style"],
     tags: ["Scenic View", "Modern Comfort", "Village Vibe"],
     googleLink: "",
     airbnbLink: ""
@@ -23,7 +23,7 @@ export const slideContent: Slide[] = [
     image: '/images/cheng-baru-classical-cozy-homestay/interior.jpg',
     titleTop: "Cheng Baru",
     titleMain: "Classical Cozy Homestay",
-    features: ["3 Bedrooms", "Private Hot Tub"],
+    features: ["5 Bedrooms, 3 Bathrooms", "Private Hot Tub"],
     tags: ["Forest Edge", "Private Getaway", "Eco Style"],
     googleLink: "https://share.google/yXkk1o0RfNBe2u73H",
     airbnbLink: ""
@@ -32,8 +32,8 @@ export const slideContent: Slide[] = [
     image: '/images/cheng-baru-classical-cozy-homestay/bedroom.jpg',
     titleTop: "Kampung Lapan",
     titleMain: "Classical Cozy Homestay",
-    features: ["6 Bedrooms", "Infinity Pool"],
-    tags: ["Ocean View", "Private Chef", "Sunset Spot"],
+    features: ["3 Bedrooms, 2 Bathrooms", "Full Kitchen"],
+    tags: [ "Modern Comfort", "Near A Famosa & Jonker Street", "Sunset Spot"],
     googleLink: "",
     airbnbLink: ""
   }

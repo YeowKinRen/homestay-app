@@ -2,6 +2,7 @@ import HeroSection from './components/HeroSection'
 import HomestayList from './components/HomestayList'
 import Footer from './components/Footer'
 import NavigationBar from './components/NavigationBar'
+import AboutSection from './components/AboutSection'
 
 
 export default function App() {
@@ -12,6 +13,8 @@ export default function App() {
       <HeroSection />
       <main className="p-6">
         <HomestayList />
+        <AboutSection />
+
       </main>
       <Footer />
     </div>
